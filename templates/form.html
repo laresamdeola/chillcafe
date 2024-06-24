@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %} Form {% endblock %}
+{% block content %}
+    <form action="{{ url_for('add') }}" method="post">
+        <label for="cafename">Cafe Name:</label>
+        <input
+            type="text"
+            id="cafename"
+            placeholder="Enter Cafe name"
+            name="cafename"
+            required
+        />
+        <br />
+        <label>Location:</label>
+        <input
+            type="text"
+            placeholder="Birmingham"
+            name="location"
+            required
+        />
+        <br />
+        <label>Open:</label>
+        <input
+            type="time"
+            placeholder="08:00"
+            name="open"
+            required
+        />
+        <br />
+        <label>Close:</label>
+        <input
+            type="time"
+            placeholder="18:00"
+            name="close"
+            required
+        />
+        <br />
+        <label for="coffee">Coffee:</label>
+        <select id="coffee" name="coffee" required>
+            <option>☕</option>
+            <option>☕☕</option>
+            <option>☕☕☕</option>
+            <option>☕☕☕☕</option>
+            <option>☕☕☕☕☕</option>
+        </select>
+        <br />
+        <label for="wifi">Wifi:</label>
+        <select id="wifi" name="wifi" required>
+            <option>⚡</option>
+            <option>⚡⚡</option>
+            <option>⚡⚡⚡</option>
+            <option>⚡⚡⚡⚡</option>
+            <option>⚡⚡⚡⚡⚡</option>
+        </select>
+        <br />
+        <label for="power">Power:</label>
+        <select id="power" name="power" required>
+            <option>🔌</option>
+            <option>🔌🔌</option>
+            <option>🔌🔌🔌</option>
+            <option>🔌🔌🔌🔌</option>
+            <option>🔌🔌🔌🔌🔌</option>
+        </select>
+        <br />
+        <button type="submit">Add</button>
+    </form>
+{% endblock %}
