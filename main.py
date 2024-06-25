@@ -1,5 +1,4 @@
 from flask import Flask, render_template, url_for, request, redirect
-import pandas as pd
 import csv
 
 

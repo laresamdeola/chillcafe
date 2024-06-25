@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5115a16a-a7af-41a7-8856-64b262124f05" name="Changes" comment="ChillCafe web application">
+    <list default="true" id="5115a16a-a7af-41a7-8856-64b262124f05" name="Changes" comment="dependency issue with dateutil">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1719299917885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dependency issue with dateutil">
+      <option name="closed" value="true" />
+      <created>1719303439622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719303439622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit files" />
     <MESSAGE value="ChillCafe web application" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChillCafe web application" />
+    <MESSAGE value="dependency issue with dateutil" />
+    <option name="LAST_COMMIT_MESSAGE" value="dependency issue with dateutil" />
   </component>
 </project>
